@@ -42,6 +42,7 @@ charlie.learn(knowledge1)
 charlie.learn(knowledge2)
 charlie.learn(knowledge3)
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.sample}' from Avi"
+puts "Here's everything Steve knows:"
+steve.knowledge.each {|knowledge|
 
 puts "Charlie just learned this important knowledge: '#{charlie.knowledge.sample}' from Avi"
